@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <button class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="logo">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+            </div>
+        </div>
+        
+        <div class="header-center">
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button class="voice-search-btn">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+        
+        <div class="header-right">
+            <button class="header-icon">
+                <i class="fas fa-video"></i>
+            </button>
+            <button class="header-icon">
+                <i class="fas fa-th"></i>
+            </button>
+            <button class="header-icon">
+                <i class="fas fa-bell"></i>
+            </button>
+            <div class="user-avatar">
+                <span>E</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+       
+       
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Video Player -->
+            <div class="video-container">
+                <div class="video-player">
+                    <div class="video-placeholder">
+                        <span>Vídeo em destaque</span>
+                    </div>
+                </div>
+                
+                <!-- Video Info -->
+                <div class="video-info">
+                    <h1 class="video-title">Sabrina Carpenter - Tears (Official Video)</h1>
+                    
+                    <div class="video-actions">
+                        <div class="channel-info">
+                            <div class="channel-avatar">
+                                <span>SC</span>
+                            </div>
+                            <div class="channel-details">
+                                <h3 class="channel-name">Sabrina Carpenter</h3>
+                                <span class="subscribers">21,5 mi de inscritos</span>
+                            </div>
+                            <button class="subscribe-btn">
+                                <i class="fas fa-bell"></i>
+                                <span>Inscrever-se</span>
+                            </button>
+                        </div>
+                        
+                        <div class="action-buttons">
+                            <button class="action-btn like">
+                                <i class="far fa-thumbs-up"></i>
+                                <span>645 mil</span>
+                            </button>
+                            <button class="action-btn dislike">
+                                <i class="far fa-thumbs-down"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="fas fa-share"></i>
+                                <span>Compartilhar</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="fas fa-plus"></i>
+                                <span>Salvar</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="video-description">
+                        <div class="video-stats">
+                            <span>19.259.755 visualizações</span>
+                            <span>•</span>
+                            <span>2 dias atrás</span>
+                        </div>
+                        <p class="description">
+                            Listen to ‘Man’s Best Friend” out now: https://sabrinacarpenter.lnk.to/MansB... 
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Comments Section -->
+                <div class="comments-section">
+                    <div class="comments-header">
+                        <h3>12.845 comentários</h3>
+                        <button class="sort-btn">
+                            <i class="fas fa-sort-amount-down"></i>
+                            <span>Ordenar por</span>
+                        </button>
+                    </div>
+                    
+                    <div class="add-comment">
+                        <div class="user-avatar small">
+                            <span>E</span>
+                        </div>
+                        <div class="comment-input">
+                            <input type="text" placeholder="Adicione um comentário...">
+                            <div class="comment-buttons">
+                                <button class="cancel-btn">Cancelar</button>
+                                <button class="comment-btn" disabled>Comentar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sidebar Videos -->
+            <aside class="suggested-videos">
+                <div class="video-filters">
+                    <button class="filter-btn active">Tudo</button>
+                    <button class="filter-btn">Relacionados</button>
+                    <button class="filter-btn">Música</button>
+                    <button class="filter-btn">Ao vivo</button>
+                    <button class="filter-btn">Misturas para você</button>
+                </div>
+                
+                <div class="video-list">
+                    <!-- Video Item 1 -->
+                    <div class="video-item">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/example1/maxresdefault.jpg" alt="Thumbnail">
+                            <span class="duration">3:45</span>
+                        </div>
+                        <div class="video-details">
+                            <h3 class="video-title">15 Minutes (Remix) - Sabrina Carpenter</h3>
+                            <p class="channel-name">MrGreatness</p>
+                            <p class="video-stats">12 mi de visualizações • há 1 mês</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Video Item 2 -->
+                    <div class="video-item">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/example2/maxresdefault.jpg" alt="Thumbnail">
+                            <span class="duration">4:12</span>
+                        </div>
+                        <div class="video-details">
+                            <h3 class="video-title">Goodbye - Sabrina Carpenter (Lyrics)</h3>
+                            <p class="channel-name">Lyrics Zone</p>
+                            <p class="video-stats">8,5 mi de visualizações • há 3 meses</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Add more video items as needed -->
+                </div>
+            </aside>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
